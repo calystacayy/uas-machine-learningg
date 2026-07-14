@@ -52,15 +52,15 @@ uas-machine-learning/
 
 │
 
-├── diabetes.csv          			# File dataset mentah Pima Indians Diabetes
+├── diabetes.csv          			          # File dataset mentah Pima Indians Diabetes
 
-├── app.py                			# Skrip utama aplikasi web interaktif Streamlit
+├── app.py                			          # Skrip utama aplikasi web interaktif Streamlit
 
 ├── notebook\_prediksi\_diabetes.ipynb		# Dokumen kerja proses EDA, Preprocessing, dan Modeling (Jupyter)
 
-├── README.md             			# File panduan dan informasi projek (Dokumen Ini)
+├── README.md             			          # File panduan dan informasi projek (Dokumen Ini)
 
-└── requirements.txt            #Berisi daftar pustaka (packages) luar yang digunakan dalam projek ini. Berkas ini dibaca otomatis oleh server Streamlit Cloud                                      saat proses deployment untuk memasang lingkungan kerja secara instan.
+└── requirements.txt                      # Berisi daftar pustaka (packages) luar yang digunakan dalam projek ini. Berkas ini dibaca otomatis oleh server                                                      Streamlit Cloud saat proses deployment untuk memasang lingkungan kerja secara instan.
 
 
 
