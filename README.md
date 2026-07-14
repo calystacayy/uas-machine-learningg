@@ -32,7 +32,7 @@ Fakultas Ilmu Komputer, Universitas Dian Nuswantoro
 
 \# Akses Cepat Projek
 
-\- Tautan Aplikasi Ter-deploy (Streamlit): 
+\- Tautan Aplikasi Ter-deploy (Streamlit): https://uas-machine-learning-annisa-calysta.streamlit.app/
 
 \- Tautan Repositori Projek (GitHub): https://github.com/calysstaa/uas-machine-learning
 
@@ -51,14 +51,11 @@ Berikut adalah susunan file projek yang tersimpan di dalam repositori ini agar t
 uas-machine-learning/
 
 │
-
 ├── diabetes.csv          			# File dataset mentah Pima Indians Diabetes
-
 ├── app.py                			# Skrip utama aplikasi web interaktif Streamlit
-
 ├── notebook\_prediksi\_diabetes.ipynb		# Dokumen kerja proses EDA, Preprocessing, dan Modeling (Jupyter)
-
-└── README.md             			# File panduan dan informasi projek (Dokumen Ini)
+├── README.md             			# File panduan dan informasi projek (Dokumen Ini)
+└── requirements.txt            #Berisi daftar pustaka (packages) luar yang digunakan dalam projek ini. Berkas ini dibaca otomatis oleh server Streamlit Cloud                                      saat proses deployment untuk memasang lingkungan kerja secara instan.
 
 
 
